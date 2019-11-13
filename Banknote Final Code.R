@@ -1,6 +1,5 @@
 #final project#
 
-setwd("/Users/beautifulmonster/Desktop/STAT5330")
 banknote<-read.table(file="data_banknote_authentication.txt",sep=",")
 names(banknote) <- c("variance", 
                      "skewness", 
